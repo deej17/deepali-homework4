@@ -1,0 +1,90 @@
+h1 {
+  text-align: center;
+  vertical-align: middle;
+  font-family: verdana;
+  color: darkblue;
+  font-size: 20px;
+}
+
+h3 {
+  text-align: center;
+  vertical-align: middle;
+  font-family: verdana;
+  color: rgb(2, 2, 85);
+  font-size: 15px;
+}
+
+p {
+  text-align: center;
+  vertical-align: middle;
+  font-family: verdana;
+  color: darkblue;
+  font-size: 15px;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  width: 800px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 350px;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 10px 2px;
+  font-family: verdana;
+  text-decoration-color: darkblue;
+}
+
+.btn-grid {
+  display: grid;
+  grid-template-columns: repeat(1, auto);
+  gap: 10px;
+  margin: 20px;
+}
+
+.btn {
+  border: teal;
+  background-color: gray;
+  font-family: Verdana;
+  font-size: 15px;
+  border-radius: 5px;
+  padding: 5px 10px;
+  color: white;
+  outline: none;
+}
+
+.btn.correct {
+  color: lightgreen;
+}
+
+.btn.wrong {
+  color: maroon;
+}
+
+.start-btn,
+.next-btn,
+.hscore-btn {
+  border: gray;
+  background-color: teal;
+  font-size: 20px;
+  font-family: Verdana;
+  font-weight: bold;
+  padding: 10px 20px;
+  margin-left: 30px;
+}
+
+.controls {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
